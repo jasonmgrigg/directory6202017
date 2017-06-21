@@ -3,8 +3,19 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+<link rel="stylesheet" href="main.css">
   </head>
   <body>
-    <img src={{img}}>
+    <div class="results">{{#users}}
+    <ul>
+      <img src="{{avatar}}">
+      <li class="name">{{name}}</li>
+      <li class="job">{{job}}</li>
+      <li class="city">{{address.city}}
+        {{^address.city}}
+        <li class="noCity">Missing Data</li>
+        {{/address.city}}</li>
+    </ul>
+    {{/users}}</div>
   </body>
 </html>

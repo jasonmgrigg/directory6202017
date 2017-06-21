@@ -1,0 +1,22 @@
+.name {
+  list-style-type: none;
+}
+
+.results {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  text-align: center;
+}
+
+.job {
+  list-style-type: none;
+}
+
+.city {
+  list-style-type: none;
+}
+
+.noCity {
+  list-style-type: none;
+}
